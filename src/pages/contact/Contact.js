@@ -28,7 +28,7 @@ const Contact = (props) => {
         <ContactStyle>
             <div className="contact">
                 <SectionHeading isSecondary={false}>Let's Talk</SectionHeading>
-                <a href="mailto:anubhav008shukla@gmail.com" className="contact_mail">vaibhavshukla1967@gmail.com</a>
+                <a href="mailto:vaibhavshukla1967@gmail.com" className="contact_mail">vaibhavshukla1967@gmail.com</a>
                 <div className="contact_social_icon">
                     <a href="https://github.com/iamVaibhav100"><GitHubIcon /></a>
                     <a href="https://www.linkedin.com/in/iamvaibhav100/"><LinkedInIcon /></a>
