@@ -70,8 +70,8 @@ const About = () => {
                     <p className="about_content">
                         {about}
                     </p>}
-            <p className="about_footer">Interested in working togather</p>
-            <a href="mailto:anubhav008shukla@gmail.com" className="about_link">Drop a note</a>
+            <p className="about_footer">That's all about me. How 'bout you?</p>
+            <a href="mailto:vaibhavshukla1967@gmail.com" className="about_link">Send a mail!</a>
         </AboutStyle>
     )
 }

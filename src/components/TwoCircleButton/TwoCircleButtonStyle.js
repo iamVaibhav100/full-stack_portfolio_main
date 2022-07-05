@@ -11,12 +11,12 @@ align-items: center;
 justify-content: center;
 /* overflow-y: hidden; */
     a{
-        color: #324235;
+        color: #28282B;
         font-size: max(2vw, 30px);
     }
     .circle_button{
         position: absolute;
-        border: 2px solid #324235;
+        border: 2px solid #28282B;
         border-radius: 50%;
         width: max(15vw, 300px);
         height: max(8vw, 150px);

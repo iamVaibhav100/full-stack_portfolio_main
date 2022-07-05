@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 *{
@@ -6,11 +6,16 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    user-select: none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;
+    -ms-user-select:none;
 
   }
   :root{
-    --primary: #FFF6E6;
-    --secondary: #324235;
+    --primary: #FFFFF0;
+    --secondary: #28282B;
     --gray-1: #BCB4B4;
     --deep-dark: #1E1E1E;
     --gray-2: #363636;
@@ -22,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     --section-heading-small-padding: 2em 1em;
   }
   html{
-    ${'' /* font-size: 10px; */}
+    ${"" /* font-size: 10px; */}
     font-family: 'Roboto Mono';
     background-color: var(--primary);
     overflow-x: hidden;

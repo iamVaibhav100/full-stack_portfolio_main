@@ -29,7 +29,7 @@ import { motion } from 'framer-motion'
         repeat: Infinity,
         type: "tween",
         ease: "linear",
-        delay: 7
+        delay: 20
       }
     }
   }

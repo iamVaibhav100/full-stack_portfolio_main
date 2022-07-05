@@ -20,7 +20,7 @@ background-size: ${props => props.logoBackgroundSize};
 
 `;
 
-export const LogoHeading = styled.h1`
+export const LogoHeading = styled.a`
 font-size: ${props => `max(${props.minLogoFontSize}, ${props.maxLogoFontSize})`};
 color: ${props => props.logoColor};
 `;
