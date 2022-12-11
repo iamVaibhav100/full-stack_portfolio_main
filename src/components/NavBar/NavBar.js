@@ -66,7 +66,7 @@ const NavBar = () => {
                         moving_text_margin="0 0 2em 0"
                         moving_text_text="What I wrote"
                         moving_text_font_weight="900">
-                        <Link to="/https://one0one.hashnode.dev/" className="nav_item_link" onClick={handleMenuToggle}>BLOG</Link>
+                        <a href="https://one0one.hashnode.dev/" className="nav_item_link" onClick={handleMenuToggle}>BLOG</a>
                     </MovingTextContainer>
                 </NavItemContainer>
 
