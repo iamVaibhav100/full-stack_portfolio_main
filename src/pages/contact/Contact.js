@@ -38,6 +38,7 @@ const Contact = (props) => {
                     <Link onClick={linkClickHandler} to="/about">About</Link>
                     <Link onClick={linkClickHandler} to="/skill">Skill</Link>
                     <Link onClick={linkClickHandler} to="/projects">Project</Link>
+                    <Link onClick={linkClickHandler} to="/https://one0one.hashnode.dev/">Blog</Link>
                 </div>
             </div>
             <div className="contact_moivng_text_footer">

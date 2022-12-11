@@ -60,6 +60,14 @@ const NavBar = () => {
                         moving_text_font_weight="900">
                         <Link to="/projects" className="nav_item_link" onClick={handleMenuToggle}>PROJECTS</Link>
                     </MovingTextContainer>
+                    <MovingTextContainer
+                        moving_text_wallper_color="#FFFFF0"
+                        moving_text_color="#28282B"
+                        moving_text_margin="0 0 2em 0"
+                        moving_text_text="What I wrote"
+                        moving_text_font_weight="900">
+                        <Link to="/https://one0one.hashnode.dev/" className="nav_item_link" onClick={handleMenuToggle}>BLOG</Link>
+                    </MovingTextContainer>
                 </NavItemContainer>
 
             </ReactStaggerNavbar>
