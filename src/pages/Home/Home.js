@@ -99,7 +99,7 @@ const Home = () => {
       </HomeStyle>
       <ModifiedTwoCircleButton
         className="home_two_circle_button"
-        link="https://drive.google.com/file/d/16tTPgIEDiTV7m_VLYlgHxj-B2xROYuXr/view?usp=sharing"
+        link="https://drive.google.com/file/d/1YtWZowgVf2HBxumrrl-aSeDQChmwC-xy/view?usp=sharing"
         text="Download CV"
       />
     </>
