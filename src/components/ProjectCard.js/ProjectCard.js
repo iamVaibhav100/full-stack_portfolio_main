@@ -50,7 +50,7 @@ const ProjectCard = ({
       <h1 className="project_number">{project_number}</h1>
       <h1 className="project_card_heading">{project_title}</h1>
       <h2 className="project_card_desc">{project_desc}</h2>
-      <ModifiedTwoCircleButton link={button_link} text="READ MORE" />
+      <ModifiedTwoCircleButton link={button_link} text="check out" />
       {show}
     </ProjectCardContainer>
   )
